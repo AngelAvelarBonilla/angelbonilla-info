@@ -1,0 +1,12 @@
+$mainColor: #F2F2F2;
+$altColor: #211e48;
+$lite: #b0dacc;
+
+$width: 810px;
+
+@mixin mobile {
+  @media (max-width: #{$width}){
+    @content
+  }
+}
+

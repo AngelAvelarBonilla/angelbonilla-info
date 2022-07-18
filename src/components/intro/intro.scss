@@ -1,0 +1,54 @@
+@import "../../global.scss";
+
+.intro{
+  background-color: $mainColor; 
+  background-image: url("../../../public/assets/hero.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+
+  .heroText{
+    color: $mainColor;
+    text-shadow: .3rem .2rem $altColor;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin:0;
+    text-align: center;
+
+    @include mobile{
+      width: 100%;
+    }
+
+    h1{
+      font-size: 5rem;
+    }
+  
+    h2{
+      font-size: 2rem;
+    }
+  }
+
+  .downArrow{
+    margin: 0;
+    font-size: 5rem;
+    color: $mainColor;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    animation: arrowBlink 1s infinite ease-in;
+    -webkit-animation-direction: alternate;
+  }
+
+  @keyframes arrowBlink {
+    to{
+      opacity: 0;
+    }
+  }
+
+}
