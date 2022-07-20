@@ -7,6 +7,10 @@
   .left{
     flex: 1;
     overflow: hidden;
+
+    @include mobile {
+      display: none;
+    }
     img{
       height: 100%;
       scale: 0.9;

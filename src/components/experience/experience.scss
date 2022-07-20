@@ -22,6 +22,7 @@
     @include mobile{
     flex-direction: column;
     height: 100%;
+    display: inline;
     }
 
     .entry{
@@ -38,7 +39,6 @@
 
       @include mobile{
       width: 80%;
-      height: 100%;
       overflow: visible;
       }
 
@@ -78,6 +78,10 @@
 
       &:hover{
         transform: scale(1.1);
+
+        @include mobile {
+          transform: none;
+        }
       }
     }
   }

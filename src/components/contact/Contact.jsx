@@ -19,7 +19,12 @@ const Contact = () => {
           <input type="text" placeholder="Email" />
           <textarea placeholder="Message"></textarea>
           <button type="submit">Send</button>
-          {submitted && <span>Sent :)</span>}
+          {submitted && (
+            <span>
+              I haven't implemented this yet. <br />
+              Email me directly instead!
+            </span>
+          )}
         </form>
       </div>
     </div>
