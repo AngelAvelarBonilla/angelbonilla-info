@@ -1,5 +1,5 @@
 import "./navbar.scss";
-import { PhoneIphone, Mail } from "@material-ui/icons";
+import { PhoneIphone, Mail } from "@mui/icons-material";
 
 const Navbar = ({ menuOpen, setMenuOpen }) => {
   return (

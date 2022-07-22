@@ -1,5 +1,5 @@
 import "./intro.scss";
-import { ArrowDropDown } from "@material-ui/icons";
+import { ArrowDropDown } from "@mui/icons-material";
 const Intro = () => {
   return (
     <div className="intro" id="intro">
