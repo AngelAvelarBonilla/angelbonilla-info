@@ -36,6 +36,20 @@
     h2{
       font-size: 2rem;
     }
+
+    .contacts{
+      display: none;
+
+      @include mobile {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-shadow: 1px 1px black;
+        font-weight: 500;
+        padding-top: 2rem;
+      }
+    }
+
   }
 
   .downArrow{
