@@ -141,8 +141,14 @@ const Projects = () => {
             </svg>
           </div>
           <p>
-            This porfolio site was kicked off with Create React App and was
-            deployed using Digital Ocean.
+            This portfolio site was my first introduction to React Function
+            components and React hooks. I learned a lot about organizing my
+            components and breaking everything into smaller pieces.
+            <br />
+            <br />
+            This site was also my first time using Sass and was the first time I
+            really focused on making a site mobile-friendly. The site was kicked
+            off with Create React App and was deployed using Digital Ocean.
           </p>
         </div>
       </div>

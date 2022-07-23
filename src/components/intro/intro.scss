@@ -8,6 +8,12 @@
   background-attachment: fixed;
   position: relative;
 
+  @include mobile{
+    display: flex;
+    height: 100% !important;
+    background-attachment: scroll;
+  }
+
   .heroText{
     color: $mainColor;
     text-shadow: .3rem .2rem $altColor;
@@ -20,7 +26,7 @@
     text-align: center;
 
     @include mobile{
-      width: 100%;
+      width: 98%;
     }
 
     h1{
