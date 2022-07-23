@@ -12,6 +12,11 @@
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
     scrollbar-width: none;
+
+    @include mobile {
+      scroll-snap-type:proximity;
+    }
+
     &::-webkit-scrollbar{
       display: none;
     }

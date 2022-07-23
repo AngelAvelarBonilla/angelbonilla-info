@@ -33,6 +33,10 @@
         align-items: center;
         margin-left: 2rem;
 
+        @include mobile {
+          display: none;
+        }
+
         .icon{
           font-size: 1.2rem;
           margin-right: .2rem;
